@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* Realiza o Reset de margens e espaçamento */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Aplica uma familia de fonte padrão ao documento */
+body {
+    font-family: "Roboto", sans-serif;
+}
+/* Habilita o float, cor de fundo, tamanhos e alinhamento no menu lateral */
+#MenuLateral {
+    float: left;
+    background-color: rgba(178, 98, 66, 255);
+    width: 25vw;
+    height: 100vh;
+    text-align: center;
+}
+/* Configura o posicionamento por margem, tamanho e a borda da foto */
+#FotodoMenu img {
+    margin-top: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+}
+
+/* Configura espaçamento, as opções de fonte e ajustes para botões modernos */
+#menuTexto > button {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    padding-top: 2.5vh;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: rgba(218, 169, 149, 255);
+}
+/* Configura a cor de hover nos botões */
+#menuTexto > button:hover {
+    color: white !important;
+}
+/* Habilita o float da div do conteúdo Principal, limita o tamanho
+e determina a fonte */
+#conteudoPrincipal {
+    float: left;
+    width: 73vw;
+    height: 100vh;
+}
+/* Ajusta o espaçamento das laterais e a distancia do topo */
+#wrapper {
+    padding-left: 5vh;
+    padding-right: 10vh;
+    margin-top: 30vh;
+}
+/* Define o tamanho e a cor para a linha com o nome */
+#wrapper h1 {
+    font-size: 4rem;
+    color: rgba(178, 98, 66, 255);
+}
+/* Define o tamanho e a cor para a linha com endereço e email */
+#wrapper h2 {
+    font-size: 1.5rem;
+    color: rgba(109, 110, 115, 255);
+}
+
+#wrapper strong {
+    color: black;
+}
+
+#wrapper span {
+    color: rgba(178, 98, 66, 255);
+}
+
+.textoPrincipal {
+    margin-top: 5vh;
+    font-size: 1.3rem;
+    color: rgba(109, 110, 115, 255);
+}
+.textoPrincipal p {
+    text-indent: 4vw;
+}
+
+.textoPrincipal ul {
+    list-style-type: none;
+}
+
+#redesSociais {
+    margin-top: 4vh;
+    margin-left: 4vw;
+}
+.botaoSocial {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 2vw;
+}
+
+.botaoSocial > a > img {
+    height: 40px;
+    width: 40px;
+}
